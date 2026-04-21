@@ -1,3 +1,7 @@
+plugins {
+    id("com.google.gms.google-services") version "4.4.4" apply false
+}
+
 allprojects {
     repositories {
         google()
@@ -16,10 +20,12 @@ subprojects {
     project.evaluationDependsOn(":app")
 }
 
-tasks.register<Delete>("clean") {
-    delete(rootProject.layout.buildDirectory)
+subprojects {
+    plugins.withId("com.android.library") {
+        extensions.getByType<com.android.build.gradle.LibraryExtension>().compileSdk = 35
+    }
 }
 
-plugins {
-    id("com.google.gms.google-services") version "4.4.4" apply false
+tasks.register<Delete>("clean") {
+    delete(rootProject.layout.buildDirectory)
 }
