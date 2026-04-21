@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "app.ashraful.taghyeer_technologies.taghyeer_technologies"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 34
     ndkVersion = "27.0.12077973"
 
     compileOptions {
