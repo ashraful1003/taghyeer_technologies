@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "302550314723",
+    "project_id": "chat-garibook",
+    "storage_bucket": "chat-garibook.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302550314723:android:acf8d8f1cb46409b761fd6",
+        "android_client_info": {
+          "package_name": "app.ashraful.chat_garibook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCr8kQGmBN-03RqYV8wMka3IB6NOu5m_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302550314723:android:401fce13c3c87846761fd6",
+        "android_client_info": {
+          "package_name": "app.ashraful.taghyeer_technologies.taghyeer_technologies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCr8kQGmBN-03RqYV8wMka3IB6NOu5m_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
